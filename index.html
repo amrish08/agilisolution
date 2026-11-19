@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Book computer and laptop repair services in Pondicherry with Agile Solution.">
+<title>Agile Solution | Computer & Laptop Repair</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">A</span><span>AGILE <b>SOLUTION</b><small>COMPUTER CARE</small></span></a><a class="call-link" href="tel:+918825985850">Call 8825985850</a></header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><span class="eyebrow">PONDICHERRY • COMPUTER SERVICE</span><h1>Tech troubles?<br><em>We've got you.</em></h1><p>Reliable laptop and desktop repair, software support and data recovery. Book a service request in a few simple steps.</p><a class="primary-btn" href="#booking">Book a service <span>→</span></a><div class="trust"><span>✓ Easy booking</span><span>✓ Local support</span><span>✓ Secure online payment</span></div></div>
+ <div class="hero-art"><div class="glow"></div><div class="device"><div class="screen"><div class="screen-top"></div><div class="screen-content"><span>AGILE</span><b>TECH SUPPORT</b><i>● ● ●</i></div></div><div class="keyboard"></div></div><div class="float-card">⌁ <b>Computer care</b><small>Made simple</small></div></div>
+</section>
+<section class="services section"><div class="section-heading"><span class="eyebrow">WHAT WE FIX</span><h2>Services that keep you moving.</h2><p>Choose the service you need when making your booking.</p></div>
+<div class="service-grid">
+ <article class="service-card"><span class="service-icon">▣</span><h3>Laptop repair</h3><p>Diagnosis and repair support for common laptop issues.</p></article>
+ <article class="service-card"><span class="service-icon">▤</span><h3>Desktop repair</h3><p>Desktop troubleshooting, hardware checks and repairs.</p></article>
+ <article class="service-card"><span class="service-icon">⊞</span><h3>Windows installation</h3><p>Windows installation and setup assistance.</p></article>
+ <article class="service-card"><span class="service-icon">⌘</span><h3>Software installation</h3><p>Setup and configuration of required software.</p></article>
+ <article class="service-card"><span class="service-icon">⌕</span><h3>Virus removal</h3><p>Malware checks and cleanup assistance.</p></article>
+ <article class="service-card"><span class="service-icon">↗</span><h3>Data recovery</h3><p>Assessment and recovery support for accessible storage media.</p></article>
+</div></section>
+<section class="booking section" id="booking"><div class="booking-intro"><span class="eyebrow">GET STARTED</span><h2>Book your<br><em>repair service.</em></h2><p>Tell us what you need. Our team can contact you to confirm the appointment and next steps.</p><div class="contact-box"><span>NEED HELP?</span><a href="tel:+918825985850">+91 88259 85850</a><small>Pondicherry, India</small></div></div>
+<form id="bookingForm" class="booking-form">
+ <div class="form-title"><span>01 / SERVICE REQUEST</span><h3>Your booking details</h3></div>
+ <label>Choose a service<select name="service" required><option value="">Select a service</option><option>Laptop repair</option><option>Desktop repair</option><option>Windows installation</option><option>Software installation</option><option>Virus removal</option><option>Data recovery</option></select></label>
+ <div class="two-col"><label>Your name<input name="name" required maxlength="80" placeholder="Full name"></label><label>Mobile number<input name="phone" required inputmode="tel" pattern="[0-9+() -]{8,16}" placeholder="10-digit number"></label></div>
+ <label>Address / area in Pondicherry<textarea name="address" required maxlength="400" rows="2" placeholder="Your area and address"></textarea></label>
+ <div class="two-col"><label>Preferred date<input name="date" type="date" required></label><label>Preferred time<select name="time" required><option value="">Choose time</option><option>9 AM – 12 PM</option><option>12 PM – 3 PM</option><option>3 PM – 6 PM</option></select></label></div>
+ <label>Describe the issue (optional)<textarea name="issue" rows="3" maxlength="1000" placeholder="Tell us briefly what happened..."></textarea></label>
+ <div class="payment-note"><div><b>Booking advance</b><small>Pay securely through Razorpay to submit your booking.</small></div><strong>₹500</strong></div>
+ <p class="fine-print">The ₹500 is an advance booking amount, not the final repair price. Final service charges will be confirmed after inspection. Please change the advance amount in the setup if this is not your intended policy.</p>
+ <button class="primary-btn submit-btn" id="payButton" type="submit">Continue to secure payment <span>→</span></button>
+ <p id="status" class="status" role="status"></p>
+ <small class="secure">🔒 Payments are processed by Razorpay. Card/UPI details are not stored on this website.</small>
+</form></section>
+<section class="bottom-cta"><div><span class="eyebrow">AGILE SOLUTION</span><h2>Let's get your device<br>back on track.</h2></div><a class="primary-btn light" href="tel:+918825985850">Call us: 8825985850 →</a></section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">A</span><span>AGILE <b>SOLUTION</b><small>COMPUTER CARE</small></span></a><span>© <span id="year"></span> Agile Solution · Pondicherry, India</span><a href="tel:+918825985850">8825985850</a></footer>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script><script src="/app.js"></script>
+</body></html>
